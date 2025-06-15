@@ -60,7 +60,7 @@ class LoadingScreen(QWidget):
 class LeafCounterApp(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("LeafScan Pro — Leaf Counter")
+        self.setWindowTitle("Leaf Segmentation Model")
         self.setGeometry(100, 100, 820, 680)
         self.setAcceptDrops(True)
         self.image_path = None
@@ -69,7 +69,7 @@ class LeafCounterApp(QWidget):
         self.apply_dark_theme()
 
     def setup_ui(self):
-        self.toolbar = QLabel("Leaf Count Detector")
+        self.toolbar = QLabel("Leaf Segmentation")
         self.toolbar.setFixedHeight(40)
         self.toolbar.setAlignment(Qt.AlignCenter)
         self.toolbar.setStyleSheet("background-color: black; color: #55bb55; font: bold 18px 'Arial';")

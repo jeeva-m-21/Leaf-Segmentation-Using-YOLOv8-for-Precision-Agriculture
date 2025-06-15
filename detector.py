@@ -19,7 +19,7 @@ def get_model_path(filename):
 
     return os.path.join(base_path, filename)
 
-model = YOLO(get_model_path("model.pt"))
+model = YOLO(get_model_path("resources/model.pt"))
 def detect_leaves(image_path):
     # Predict
     results = model.predict(source=image_path, conf=0.25, save=False)
