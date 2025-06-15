@@ -53,7 +53,7 @@ While detection models identify leaf locations using bounding boxes, segmentatio
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/leaf-segmentation-yolov8.git
+https://github.com/jeeva-m-21/Leaf-Segmentation-Using-YOLOv8-for-Precision-Agriculture.git
 cd leaf-segmentation-yolov8
 pip install -r requirements.txt
 ```
